@@ -7,7 +7,8 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   imports: [
   BrowserModule,
-  RouterModule.forRoot([{path: 'foo-bar', loadChildren: '@todolist-nx/foo-bar#FooBarModule'}], {initialNavigation: 'enabled'})],
+  NxModule.forRoot(),
+  RouterModule.forRoot([{path: 'foo-bar', loadChildren: '@foobar-nx/foo-bar#FooBarModule'}], {initialNavigation: 'enabled'})],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })

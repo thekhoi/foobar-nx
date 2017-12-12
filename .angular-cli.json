@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
-    "name": "todolist-nx",
+    "name": "foobar-nx",
     "npmScope": "schwab",
     "latestMigration": "20171129-change-schema"
   },

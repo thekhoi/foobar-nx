@@ -112,7 +112,7 @@
     "nx-enforce-module-boundaries": [
       true,
       {
-        "npmScope": "todolist-nx",
+        "npmScope": "foobar-nx",
         "lazyLoad": [
           "foo-bar",
           "foo-bar"
