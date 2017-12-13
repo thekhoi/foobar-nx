@@ -10,5 +10,5 @@ import { FooBazComponent } from './foo-baz.component';
       { path: '', pathMatch: 'full', component: FooBazComponent }
     ])]
 })
-export class FooBarModule {
+export class FooBazModule {
 }

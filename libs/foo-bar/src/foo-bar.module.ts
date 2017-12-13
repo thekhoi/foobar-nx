@@ -7,7 +7,11 @@ import { FooBarComponent } from './foo-bar.component';
   imports: [CommonModule,
     RouterModule.forChild([
       { path: '', pathMatch: 'full', component: FooBarComponent },
-      { path: 'baz', pathMatch: 'full', loadChildren: './foo-baz/foo-baz-component#FooBazModule' }
+      {
+        path: 'baz',
+        pathMatch: 'full',
+        loadChildren: './foo-baz/foo-baz.module#FooBazModule'
+      }
     ])]
 })
 export class FooBarModule {

@@ -6,9 +6,14 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-  BrowserModule,
-  NxModule.forRoot(),
-  RouterModule.forRoot([{path: 'foo-bar', loadChildren: '@foobar-nx/foo-bar#FooBarModule'}], {initialNavigation: 'enabled'})],
+    BrowserModule,
+    NxModule.forRoot(),
+    RouterModule.forRoot([
+      {
+        path: 'foo-bar',
+        loadChildren: '@foobar-nx/foo-bar#FooBarModule'
+      }],
+      { initialNavigation: 'enabled' })],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
